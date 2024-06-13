@@ -1,0 +1,3 @@
+**Task 4: Will the compiler use BFS or DFS while executing the code (make file accessing nodes of the graph)**
+
+The compiler doesn’t use BFS or DFS to execute the code. These are algorithms used for traversing or searching tree or graph data structures. They have nothing to do with how a compiler works. A compiler translates the source code into machine code. It doesn’t traverse the code in the sense of BFS or DFS.
