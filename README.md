@@ -8,7 +8,7 @@
 
 run solution one by using:
 
-    gcc - solution1.c -o S1
+    gcc solution1.c -o S1
 
 ***Solution Two***
 - Dynamic Programming Approach:
@@ -28,7 +28,7 @@ run solution one by using:
 
 - Breadth-First Search (BFS) is an algorithm used for traversing or searching tree or graph data structures. It starts at the tree root (or an arbitrary node in the case of a graph) and explores the neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
 
-- To run question two cd into question two, 
+- To run question two cd into question two,
 
     sudo apt install make 
 
@@ -39,15 +39,15 @@ run solution one by using:
 
 **Question Three**
 
-    This program first creates a min heap with capacity equal to the size of the input arrays. Each node of the min heap contains a character and its frequency of occurrence. The nodes are sorted in the min heap according to their frequencies.
+- This program first creates a min heap with capacity equal to the size of the input arrays. Each node of the min heap contains a character and its frequency of occurrence. The nodes are sorted in the min heap according to their frequencies.
 
-    The buildHuffmanTree function builds the Huffman tree by extracting two minimum frequency nodes from the min heap at a time, creating a new node with frequency equal to the sum of the two nodes’ frequencies, and inserting the new node back into the min heap. This process is repeated until there is only one node left in the min heap, which is the root of the Huffman tree.
+- The buildHuffmanTree function builds the Huffman tree by extracting two minimum frequency nodes from the min heap at a time, creating a new node with frequency equal to the sum of the two nodes’ frequencies, and inserting the new node back into the min heap. This process is repeated until there is only one node left in the min heap, which is the root of the Huffman tree.
 
 - to run question two cd into question three,
 
     sudo apt install make 
 
-then run make to create compress file then run with 
+then run make to create compress file then run with
 
     ./compress
 
