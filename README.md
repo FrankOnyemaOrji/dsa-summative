@@ -17,7 +17,7 @@ run solution one by using:
     If the characters Text1[i-1] and Text2[j-1] are the same, then dp[i][j] = dp[i-1][j-1] + 1.
     If the characters are different, then dp[i][j] = max(dp[i-1][j], dp[i][j-1]).
 
-- run solution one by using:
+Run solution one by using:
 
     gcc - solution2.c -o S2
 
@@ -28,11 +28,11 @@ run solution one by using:
 
 - Breadth-First Search (BFS) is an algorithm used for traversing or searching tree or graph data structures. It starts at the tree root (or an arbitrary node in the case of a graph) and explores the neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
 
-- To run question two cd into question two,
+To run question two cd into question two,
 
     sudo apt install make 
 
-- then run make to create student_sort file then run with
+Then run make to create student_sort file then run with
 
     ./student_sort
 
@@ -43,11 +43,11 @@ run solution one by using:
 
 - The buildHuffmanTree function builds the Huffman tree by extracting two minimum frequency nodes from the min heap at a time, creating a new node with frequency equal to the sum of the two nodes’ frequencies, and inserting the new node back into the min heap. This process is repeated until there is only one node left in the min heap, which is the root of the Huffman tree.
 
-- to run question two cd into question three,
+To run question two cd into question three:
 
     sudo apt install make 
 
-then run make to create compress file then run with
+Then run make to create compress file then run with
 
     ./compress
 
@@ -70,11 +70,11 @@ then run make to create compress file then run with
 
 - After the algorithm completes, print the shortest distance from node 0 to all other nodes.
 
-- run solution one by using:
+Run solution one by using:
 
     gcc - dijkstra.c -o dijkstra
 
-- The run
+The run
 
     ./dijkstra
 
